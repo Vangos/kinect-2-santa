@@ -117,7 +117,7 @@ namespace Kinect2Santa
                         double width = ORIGINAL_IMAGE_WIDTH * distance / ORIGINAL_DISTANCE_EYES;
                         double height = width * ORIGINAL_IMAGE_HEIGHT / ORIGINAL_IMAGE_WIDTH;
 
-                        // Calculate the angle οφ the two points.
+                        // Calculate the angle of the two points.
                         double angle = Math.Atan2(eyeRight.Y - eyeLeft.Y, eyeRight.X - eyeLeft.X) * 180.0 / Math.PI;
 
                         // Transform the image!
